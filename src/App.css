@@ -1,6 +1,12 @@
 .App {
   text-align: center;
   border: solid 5px;
+  padding: 10px;
+}
+
+.Content {
+  width: 500px;
+  margin: auto;
   display: flex;
   flex-direction: row;
 }
@@ -8,30 +14,23 @@
 .StaticSide {
   text-align: center;
   border: solid 5px blue;
-  display: inline-flexbox;
   justify-content: left;
   flex-direction: row;
-  flex: initial;
-
-}
-
-.MyLink {
-  border: solid 5px red;
-}
-
-.Photo {
-  border: solid 5px pink;
-  display: flex;
-  justify-content: center;
-  display: inline-flexbox;
+  padding: 10px;
 }
 
 .ScrollSide {
   border: solid 5px green;
-  display: flex-right;
-  justify-content: right;
-  display: inline-flexbox;
-  flex-direction: row;
-  flex: initial;
+  padding: 10px;
+}
+
+.MyLink {
+  border: solid 5px red;
+  padding: 10px;
+}
+
+.Photo {
+  border: solid 5px pink;
+  padding: 10px;
 
 }

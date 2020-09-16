@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-import StaticSideContainer from './containers/StaticSideContainer.js';
-import ScrollSideContainer from './containers/ScrollSideContainer'
+import ContentContainer from './containers/ContentContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <StaticSideContainer/>
-        <ScrollSideContainer/>
-      </header>
+        <ContentContainer/>
     </div>
   );
 }
