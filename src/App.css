@@ -2,6 +2,7 @@
   text-align: center;
   border: solid 5px;
   padding: 10px;
+  background-color: rosybrown;
 }
 
 .Content {
@@ -16,11 +17,18 @@
 .StaticSide {
   text-align: center;
   border: solid 5px blue;
-  justify-content: left;
+  /* justify-content: left; */
   flex-direction: row;
   padding: 10px;
-  
+  margin-top: auto; 
+  margin-bottom: auto; 
 }
+/* 
+.StaticSide h1 {
+  margin-top: auto; 
+  margin-bottom: 565px; 
+
+} */
 
 .ScrollSide {
   border: solid 5px green;
@@ -33,7 +41,13 @@
 .MyLink {
   border: solid 5px red;
   padding: 10px;
+  /* display: flex; */
+  flex-direction: column;
 }
+
+/* .link {
+
+} */
 
 .Photo {
   border: solid 5px pink;

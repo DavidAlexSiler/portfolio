@@ -1,9 +1,22 @@
 import React from 'react'
+import { Icon, Menu } from 'semantic-ui-react'
 
 export default function MyLinkContainer() {
     return (
         <div className="MyLink">
-            <h1>my linkz</h1>
+            <Menu compact icon='labeled' className="link">
+                <Menu.Item name='linkedin'>
+                    <Icon name='linkedin' />LinkedIn
+                </Menu.Item>
+                
+                <Menu.Item name='github' className="link">
+                    <Icon name='github' />GitHub
+                </Menu.Item>
+
+                <Menu.Item name='medium' className="link">
+                    <Icon name='medium' />Blog
+                </Menu.Item>
+            </Menu>
         </div>
     )
 }
