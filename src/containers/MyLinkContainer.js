@@ -5,10 +5,10 @@ export default function MyLinkContainer() {
     return (
         <div className="MyLink">
             <Menu compact icon='labeled' className="link">
-                <Menu.Item name='linkedin'>
+                <Menu.Item href="www.google.com" name='linkedin'>
                     <Icon name='linkedin' />LinkedIn
                 </Menu.Item>
-                
+
                 <Menu.Item name='github' className="link">
                     <Icon name='github' />GitHub
                 </Menu.Item>
